@@ -1,0 +1,48 @@
+# OS & editors
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Secrets / local config
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config/local.*
+
+# Dumps & backups (keep normal .sql migrations)
+*.sql.gz
+*.sql.zip
+*.sql.tar
+*.dump
+*.backup
+*.bak
+*_dump.sql
+*_backup.sql
+
+# Optional dump folders
+dumps/
+backups/
+exports/
+imports/
+
+# Local DB files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.mdf
+*.ldf
+*.ndf
+*.dmp
+*.dmp.gz
+
+# Containers / volumes
+docker-data/
+volumes/
+data/
