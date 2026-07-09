@@ -1,0 +1,45 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AgentJobFailureHistory] (Table)
+       [dbo].[AgentJobFailureHistory].[IX_AgentJobFailureHistory_CaptureTime_JobName] (Index)
+       [dbo].[BackupStatusHistory] (Table)
+       [dbo].[BackupStatusHistory].[IX_BackupStatusHistory_CaptureTime_DatabaseName] (Index)
+       [dbo].[DatabaseSizeHistory] (Table)
+       [dbo].[DatabaseSizeHistory].[IX_DatabaseSizeHistory_CaptureTime_DatabaseName] (Index)
+       [dbo].[MonitoringRun] (Table)
+       [dbo].[OlaCommandLogHistory] (Table)
+       [dbo].[OlaCommandLogHistory].[IX_OlaCommandLogHistory_StartTime_CommandType_DatabaseName] (Index)
+       [dbo].[DF_AgentJobFailureHistory_CaptureTime] (Default Constraint)
+       [dbo].[DF_AgentJobFailureHistory_ServerName] (Default Constraint)
+       [dbo].[DF_BackupStatusHistory_CaptureTime] (Default Constraint)
+       [dbo].[DF_BackupStatusHistory_ServerName] (Default Constraint)
+       [dbo].[DF_DatabaseSizeHistory_CaptureTime] (Default Constraint)
+       [dbo].[DF_DatabaseSizeHistory_ServerName] (Default Constraint)
+       [dbo].[DF_MonitoringRun_ServerName] (Default Constraint)
+       [dbo].[DF_MonitoringRun_StartTime] (Default Constraint)
+       [dbo].[DF_MonitoringRun_Status] (Default Constraint)
+       [dbo].[DF_OlaCommandLogHistory_CaptureTime] (Default Constraint)
+       [dbo].[DF_OlaCommandLogHistory_ServerName] (Default Constraint)
+       [dbo].[FK_AgentJobFailureHistory_MonitoringRun_MonitoringRunID] (Foreign Key)
+       [dbo].[FK_BackupStatusHistory_MonitoringRun_MonitoringRunID] (Foreign Key)
+       [dbo].[FK_DatabaseSizeHistory_MonitoringRun_MonitoringRunID] (Foreign Key)
+       [dbo].[FK_OlaCommandLogHistory_MonitoringRun_MonitoringRunID] (Foreign Key)
+       [dbo].[vLatestBackupStatus] (View)
+       [dbo].[vRecentAgentJobFailures] (View)
+       [dbo].[vRecentOlaErrors] (View)
+       [dbo].[GetAgentJobFailures] (Procedure)
+       [dbo].[GetBackupStatus] (Procedure)
+       [dbo].[GetDatabaseSizes] (Procedure)
+       [dbo].[GetOlaCommandLog] (Procedure)
+
+** Supporting actions

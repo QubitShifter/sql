@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[vMonitorFileStatsDelta] (View)
+       [dbo].[vMonitorLatestSnapshots] (View)
+       [dbo].[vMonitorProcStatsLatest] (View)
+       [dbo].[vMonitorTableStatsLatest] (View)
+       [dbo].[vMonitorTempDBStatsLatest] (View)
+       [dbo].[vMonitorWaitStatsDelta] (View)
+       [dbo].[vMonitorTopWaitStatsDelta] (View)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

@@ -1,0 +1,42 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CounterSnapshots] (Table)
+       [dbo].[CounterSnapshotTypes] (Table)
+       [dbo].[FileStats] (Table)
+       [dbo].[ProcStats] (Table)
+       [dbo].[TableStats] (Table)
+       [dbo].[TempDBStats] (Table)
+       [dbo].[WaitStats] (Table)
+       [dbo].[FK_CounterSnapshots_counter_snapshot_type_id] (Foreign Key)
+       [dbo].[FK_FileStats_counter_snapshot_id] (Foreign Key)
+       [dbo].[FK_ProcStats_counter_snapshot_id] (Foreign Key)
+       [dbo].[FK_TableStats_counter_snapshot_id] (Foreign Key)
+       [dbo].[FK_TempDBStats_counter_snapshot_id] (Foreign Key)
+       [dbo].[FK_WaitStats_counter_snapshot_id] (Foreign Key)
+       [dbo].[CalcAvgProcStats] (Function)
+       [dbo].[CalcProcStatsRatio] (Function)
+       [dbo].[CalcRelativeWeight] (Function)
+       [dbo].[GetProcStatsByPeriod] (Function)
+       [dbo].[GetProcStatsByTwoPeriods] (Function)
+       [dbo].[RegisterCounterSnapshot] (Procedure)
+       [dbo].[SaveFileStats] (Procedure)
+       [dbo].[SaveProcStats] (Procedure)
+       [dbo].[SaveTableStats] (Procedure)
+       [dbo].[SaveTempDBStats] (Procedure)
+       [dbo].[SaveWaitStats] (Procedure)
+       [dbo].[CollectBasicStats] (Procedure)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

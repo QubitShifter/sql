@@ -1,0 +1,9 @@
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\bin\Debug\DBA.Monitoring.Database.dacpac
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\bin\Debug\DBA.Monitoring.Database.dll
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\bin\Debug\DBA.Monitoring.Database.pdb
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\bin\Debug\master.dacpac
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\bin\Debug\msdb.dacpac
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\obj\Debug\DBA.Monitoring.Database.sqlproj.AssemblyReference.cache
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\obj\Debug\DBA.Moni.B7B62D05.Up2Date
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\obj\Debug\DBA.Monitoring.Database.dll
+C:\WorkRelated\workspace\git\sql\dba\DBA.Monitoring\DBA.Monitoring.Database\obj\Debug\DBA.Monitoring.Database.pdb

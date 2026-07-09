@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DBA.Monitoring.Database/DBA.Monitoring.Database.sqlproj" Id="7ac5b3fa-f5b4-4282-8cae-0a39e6b54eb2">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

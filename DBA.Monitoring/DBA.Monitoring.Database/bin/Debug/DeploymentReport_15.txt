@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[DeadlockLog] (Table)
+       [dbo].[DeadlockLog].[IX_DeadlockLog_CaptureTime_DeadlockLogID] (Index)
+       [dbo].[DF_DeadlockLog_CaptureTime] (Default Constraint)
+       [dbo].[vRecentDeadlocks] (View)
+       [dbo].[ProcessDeadlockMessages] (Procedure)
+       [dbo].[DeadlockNotificationQueue] (Queue)
+       [DeadlockNotificationService] (Service)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

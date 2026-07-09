@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>DBA.Monitoring.Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{7ac5b3fa-f5b4-4282-8cae-0a39e6b54eb2}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql170DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>DBA.Monitoring.Database</RootNamespace>
+    <AssemblyName>DBA.Monitoring.Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Schema Objects" />
+    <Folder Include="Scripts" />
+    <Folder Include="Schema Objects\Database Level Objects" />
+    <Folder Include="Schema Objects\Schemas" />
+    <Folder Include="Schema Objects\Schemas\dbo" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables" />
+    <Folder Include="Schema Objects\Schemas\dbo\Views" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Constraints" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Indexes" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Triggers" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Triggers\Keys" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Statistics" />
+    <Folder Include="Scripts\Ola-Maintanance" />
+    <Folder Include="Scripts\Ola-Maintanance\Install" />
+    <Folder Include="Scripts\Ola-Maintanance\Verify" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Functions" />
+    <Folder Include="Scripts\Post-Deployment" />
+    <Folder Include="Scripts\Post-Deployment\SQLAgentJobs" />
+    <Folder Include="Scripts\BrentOzar" />
+    <Folder Include="Scripts\Post-Deployment\Snapshots" />
+    <Folder Include="Schema Objects\Schemas\dbo\Service Broker" />
+    <Folder Include="Schema Objects\Schemas\dbo\Service Broker\Queues" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Routes" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Services" />
+    <Folder Include="Scripts\Post-Deployment\Deadlocks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema Objects\Schemas\dbo\Tables\MonitoringRun.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\BackupStatusHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\AgentJobFailureHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\OlaCommandLogHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\DatabaseSizeHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\GetBackupStatus.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\GetAgentJobFailures.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\GetOlaCommandLog.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\GetDatabaseSizes.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vLatestBackupStatus.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vRecentAgentJobFailures.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vRecentOlaErrors.view.sql" />
+    <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\001_DBA_Monitoring_GetBackupStatus.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\002_DBA_Monitoring_GetAgentJobFailures.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\003_DBA_Monitoring_GetOlaCommandLog.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\004_DBA_Monitoring_GetDatabaseSizes.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\SnapshotWaitStats.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vWaitStatsByContext.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\WaitStatsSnapshot.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vTopWaitStatsByContext.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Functions\CalcAvgProcStats.function.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Functions\CalcProcStatsRatio.function.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Functions\CalcRelativeWeight.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Functions\GetProcStatsByPeriod.function.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Functions\GetProcStatsByTwoPeriods.function..sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\CollectBasicStats.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\RegisterCounterSnapshot.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\SaveFileStats.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\SaveProcStats.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\SaveTableStats.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\SaveTempDBStats.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\SaveWaitStats.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\CounterSnapshots.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\CounterSnapshotTypes.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\FileStats.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\ProcStats.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\TableStats.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\TempDBStats.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\WaitStats.table.sql" />
+    <None Include="Scripts\Post-Deployment\Snapshots\CounterSnapshotTypes.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorLatestSnapshots.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorWaitStatsDelta.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorTopWaitStatsDelta.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorFileStatsDelta.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorTableStatsLatest.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorProcStatsLatest.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorTempDBStatsLatest.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\CleanupMonitoringHistory.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\ProcessDeadlockMessages.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Service Broker\Queues\DeadlockNotificationQueue.queue.sql" />
+    <Build Include="Schema Objects\Database Level Objects\Service Broker\Services\DeadlockNotificationService.service.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vRecentDeadlocks.view.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\170\SqlSchemas\master.dacpac">
+      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\170\SqlSchemas\master.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
+    </ArtifactReference>
+    <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\170\SqlSchemas\msdb.dacpac">
+      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\170\SqlSchemas\msdb.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>msdb</DatabaseVariableLiteralValue>
+    </ArtifactReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBA.Monitoring.Database.publish.xml" />
+    <None Include="DBA.Monitoring.Database.localhost.publish.publish.xml" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\006_DBA_Monitoring_CollectBasicStats.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\007_DBA_Monitoring_CollectTempDBStats.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\005_DBA_Monitoring_CleanupHistory.sql" />
+    <None Include="Schema Objects\Database Level Objects\Service Broker\Routes\DeadlockNotificationRoute.route.sql" />
+    <None Include="Scripts\Post-Deployment\Deadlocks\DeadlockEventNotification.sql" />
+  </ItemGroup>
+</Project>
