@@ -1,52 +1,56 @@
 ﻿create view [dbo].[vRecentDeadlocks]
 as
+with DeadlockSource as
+(
+    select
+        [DeadlockLogID],
+        [CaptureTime],
+        [DeadlockGraph]
+    from [dbo].[DeadlockLog]
+)
 select
-	dl.[DeadlockLogID],
-	dl.[CaptureTime],
+    [DeadlockLogID] =
+        [DeadlockLogID],
 
-	[EventType] = dl.[DeadlockGraph].value(
-		'(/*[local-name() = "EVENT_INSTANCE"]/*[local-name() = "EventType"]/text())[1]',
-		'nvarchar(128)'
-	),
+    [CaptureTime] =
+        [CaptureTime],
 
-	[PostTime] = dl.[DeadlockGraph].value(
-		'(/*[local-name() = "EVENT_INSTANCE"]/*[local-name() = "PostTime"]/text())[1]',
-		'datetime2(2)'
-	),
+    [EventType] =
+        [DeadlockGraph].value(
+            '(/*[local-name() = "EVENT_INSTANCE"]/*[local-name() = "EventType"]/text())[1]',
+            'nvarchar(128)'
+        ),
 
-	[SPID] = dl.[DeadlockGraph].value(
-		'(/*[local-name() = "EVENT_INSTANCE"]/*[local-name() = "SPID"]/text())[1]',
-		'int'
-	),
+    [PostTime] =
+        try_convert
+        (
+            datetime2(3),
+            [DeadlockGraph].value(
+                '(/*[local-name() = "EVENT_INSTANCE"]/*[local-name() = "PostTime"]/text())[1]',
+                'nvarchar(50)'
+            )
+        ),
 
-	[LoginName] = dl.[DeadlockGraph].value(
-		'(/*[local-name() = "EVENT_INSTANCE"]/*[local-name() = "LoginName"]/text())[1]',
-		'nvarchar(256)'
-	),
+    [VictimProcessID] =
+        nullif
+        (
+            [DeadlockGraph].value(
+                '(//*[local-name() = "deadlock"]/@victim)[1]',
+                'nvarchar(100)'
+            ),
+            N''
+        ),
 
-	[ServerName] = dl.[DeadlockGraph].value(
-		'(/*[local-name() = "EVENT_INSTANCE"]/*[local-name() = "ServerName"]/text())[1]',
-		'nvarchar(256)'
-	),
+    [ProcessCount] =
+        [DeadlockGraph].value(
+            'count(//*[local-name() = "process-list"]/*[local-name() = "process"])',
+            'int'
+        ),
 
-	[VictimProcessID] = nullif(
-		dl.[DeadlockGraph].value(
-			'(//*[local-name() = "deadlock"]/@victim)[1]',
-			'nvarchar(100)'
-		),
-		N''
-	),
-
-	[ProcessCount] = dl.[DeadlockGraph].value(
-		'count(//*[local-name() = "process-list"]/*[local-name() = "process"])',
-		'int'
-	),
-
-	[ResourceCount] = dl.[DeadlockGraph].value(
-		'count(//*[local-name() = "resource-list"]/*)',
-		'int'
-	),
-
-	dl.[DeadlockGraph]
-from [dbo].[DeadlockLog] as dl
+    [ResourceCount] =
+        [DeadlockGraph].value(
+            'count(//*[local-name() = "resource-list"]/*)',
+            'int'
+        )
+from DeadlockSource;
 go

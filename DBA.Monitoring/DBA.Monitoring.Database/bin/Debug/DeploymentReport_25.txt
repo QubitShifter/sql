@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[QueryStoreExpensiveQueryHistory] (Table)
+       [dbo].[QueryStoreExpensiveQueryHistory].[IX_QueryStoreExpensiveQueryHistory_CollectionTime] (Index)
+       [dbo].[QueryStoreExpensiveQueryHistory].[IX_QueryStoreExpensiveQueryHistory_DatabaseName_CollectionTime] (Index)
+       [dbo].[QueryStoreExpensiveQueryHistory].[IX_QueryStoreExpensiveQueryHistory_TotalCpuMs] (Index)
+       [dbo].[DF_QueryStoreExpensiveQueryHistory_CollectionTime] (Default Constraint)
+       [dbo].[CollectQueryStoreExpensiveQueries] (Procedure)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

@@ -1,4 +1,4 @@
-﻿use [$(DatabaseName)]
+﻿use [$(DatabaseName)];
 go
 
 /* Snapshot seed data */
@@ -9,12 +9,23 @@ go
 :r .\Deadlocks\DeadlockEventNotification.sql
 go
 
-use [msdb]
+use [msdb];
 go
 
 /* SQL Agent Jobs */
 :r .\SQLAgentJobs.sql
 go
 
-use [$(DatabaseName)]
+use [master];
+go
+
+/* Server-level permissions */
+:r .\Set_ViewPermissions.sql
+go
+
+/* Query Store enable */
+:r .\Enable_QueryStore.sql
+go
+
+use [$(DatabaseName)];
 go

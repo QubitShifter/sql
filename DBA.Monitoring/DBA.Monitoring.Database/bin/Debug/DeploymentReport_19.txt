@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[DeadlockLog]
+     Clustered indexes that will be dropped
+       [dbo].[PK_DeadlockLog] on [dbo].[DeadlockLog]
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[PK_DeadlockLog] (Primary Key)
+     Recreate table
+       [dbo].[DeadlockLog] (Table)
+     Create
+       [dbo].[DeadlockLog].[IX_DeadlockLog_CaptureTime] (Index)
+       [dbo].[BlitzHealthCheckHistory] (Table)
+       [dbo].[BlitzHealthCheckHistory].[IX_BlitzHealthCheckHistory_CheckDate] (Index)
+       [dbo].[BlitzHealthCheckHistory].[IX_BlitzHealthCheckHistory_Priority_CheckDate] (Index)
+       [dbo].[BlitzHealthCheckHistory].[IX_BlitzHealthCheckHistory_CheckID_CheckDate] (Index)
+       [dbo].[CollectBlitzHealthChecks] (Procedure)
+     Alter
+       [dbo].[vRecentDeadlocks] (View)
+
+** Supporting actions
+     Drop
+       [dbo].[DF_DeadlockLog_CaptureTime] (Default Constraint)
+     Refresh
+       [dbo].[ProcessDeadlockMessages] (Procedure)
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

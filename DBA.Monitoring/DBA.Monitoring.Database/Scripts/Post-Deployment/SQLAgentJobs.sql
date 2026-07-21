@@ -5,3 +5,4 @@
 :r .\SQLAgentJobs\005_DBA_Monitoring_CleanupHistory.sql
 :r .\SQLAgentJobs\006_DBA_Monitoring_CollectBasicStats.sql
 :r .\SQLAgentJobs\007_DBA_Monitoring_CollectTempDBStats.sql
+:r .\SQLAgentJobs\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql

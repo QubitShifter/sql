@@ -84,6 +84,11 @@
     <Folder Include="Schema Objects\Database Level Objects\Service Broker\Routes" />
     <Folder Include="Schema Objects\Database Level Objects\Service Broker\Services" />
     <Folder Include="Scripts\Post-Deployment\Deadlocks" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\BrentOzar" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\BrentOzar" />
+    <Folder Include="Schema Objects\Schemas\dbo\Views\BrentOzar" />
+    <Folder Include="Scripts\Post-Deployment\Permissions" />
+    <Folder Include="Scripts\Post-Deployment\QueryStore" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\dbo\Tables\MonitoringRun.table.sql" />
@@ -136,11 +141,24 @@
     <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorProcStatsLatest.view.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Views\vMonitorTempDBStatsLatest.view.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\CleanupMonitoringHistory.proc.sql" />
-    <Build Include="Schema Objects\Schemas\dbo\Tables\table.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\ProcessDeadlockMessages.proc.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Service Broker\Queues\DeadlockNotificationQueue.queue.sql" />
     <Build Include="Schema Objects\Database Level Objects\Service Broker\Services\DeadlockNotificationService.service.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Views\vRecentDeadlocks.view.sql" />
+    <None Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\BrentOzar\sp_Blitz.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\BrentOzar\CollectBlitzHealthChecks.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\BrentOzar\BlitzHealthCheckHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\DeadlockLog.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\BrentOzar\vBlitzDashboardFindings.views.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vCollectorStatus.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vCurrentActivity.view.sql" />
+    <None Include="Scripts\Post-Deployment\Permissions\001_vCurrentActivity.sql" />
+    <None Include="Scripts\Post-Deployment\Set_ViewPermissions.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vQueryStoreExpensiveQueries.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\QueryStoreExpensiveQueryHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\CollectQueryStoreExpensiveQueries.proc.sql" />
+    <None Include="Scripts\Post-Deployment\Enable_QueryStore.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vQueryStoreExpensiveQueriesLatest.view.sql" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\170\SqlSchemas\master.dacpac">
@@ -162,5 +180,18 @@
     <None Include="Scripts\Post-Deployment\SQLAgentJobs\005_DBA_Monitoring_CleanupHistory.sql" />
     <None Include="Schema Objects\Database Level Objects\Service Broker\Routes\DeadlockNotificationRoute.route.sql" />
     <None Include="Scripts\Post-Deployment\Deadlocks\DeadlockEventNotification.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\BrentOzar\vBlitzLatestFindings.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\BrentOzar\vBlitzCriticalFindings.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\BrentOzar\vBlitzFindingSummary.view.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="ApiSqlLogin">
+      <DefaultValue>sa</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Post-Deployment\QueryStore\001_Enable_QueryStore.sql" />
   </ItemGroup>
 </Project>
