@@ -6,3 +6,5 @@
 :r .\SQLAgentJobs\006_DBA_Monitoring_CollectBasicStats.sql
 :r .\SQLAgentJobs\007_DBA_Monitoring_CollectTempDBStats.sql
 :r .\SQLAgentJobs\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql
+:r .\SQLAgentJobs\009_DBA_Monitoring_CollectDatabaseFileSizes.sql
+:r .\SQLAgentJobs\010_DBA_Monitoring_CollectDatabaseFileAutogrowEvents.sql

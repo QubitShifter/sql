@@ -159,6 +159,12 @@
     <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\CollectQueryStoreExpensiveQueries.proc.sql" />
     <None Include="Scripts\Post-Deployment\Enable_QueryStore.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Views\vQueryStoreExpensiveQueriesLatest.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\DatabaseFileSizeHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\CollectDatabaseFileSizes.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vLatestDatabaseFileSizes.view.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Tables\DatabaseFileAutogrowHistory.table.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures\CollectDatabaseFileAutogrowEvents.proc.sql" />
+    <Build Include="Schema Objects\Schemas\dbo\Views\vRecentDatabaseFileAutogrowEvents.view.sql" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\170\SqlSchemas\master.dacpac">
@@ -184,6 +190,8 @@
     <Build Include="Schema Objects\Schemas\dbo\Views\BrentOzar\vBlitzCriticalFindings.view.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Views\BrentOzar\vBlitzFindingSummary.view.sql" />
     <None Include="Scripts\Post-Deployment\SQLAgentJobs\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\009_DBA_Monitoring_CollectDatabaseFileSizes.sql" />
+    <None Include="Scripts\Post-Deployment\SQLAgentJobs\010_DBA_Monitoring_CollectDatabaseFileAutogrowEvents.sql" />
   </ItemGroup>
   <ItemGroup>
     <SqlCmdVariable Include="ApiSqlLogin">
