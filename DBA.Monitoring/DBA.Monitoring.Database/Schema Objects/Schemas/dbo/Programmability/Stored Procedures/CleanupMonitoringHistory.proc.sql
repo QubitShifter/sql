@@ -11,6 +11,8 @@
 	@MonitorTableStatsRetentionDays int = 90,
 	@MonitorTempDBStatsRetentionDays int = 30,
 
+	@QueryStoreExpensiveQueryRetentionDays int = 30,
+
 	@MonitoringRunRetentionDays int = 365,
 	@BatchSize int = 10000
 )
@@ -93,6 +95,22 @@ begin
 			delete top (@BatchSize)
 			from [dbo].[WaitStatsSnapshot]
 			where [Timestamp] < dateadd(day, -@WaitStatsSnapshotRetentionDays, sysdatetime())
+
+			set @DeletedRows = @@rowcount
+			set @TotalDeletedRows += @DeletedRows
+
+			if @DeletedRows = 0
+				break
+		end
+
+
+		/* Query Store expensive query history */
+
+		while 1 = 1
+		begin
+			delete top (@BatchSize)
+			from [dbo].[QueryStoreExpensiveQueryHistory]
+			where [CollectionTime] < dateadd(day, -@QueryStoreExpensiveQueryRetentionDays, sysdatetime())
 
 			set @DeletedRows = @@rowcount
 			set @TotalDeletedRows += @DeletedRows

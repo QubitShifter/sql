@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_21.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBA.Monitoring.Database\\bin\\Debug\\DBA_21.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\005_DBA_Monitoring_CleanupHistory.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\005_DBA_Monitoring_CleanupHistory.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_7.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
@@ -183,40 +183,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBA.Monitoring.Database\\bin\\Debug\\DBA.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\Script.PostDeployment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Scripts\\Post-Deployment\\Script.PostDeployment.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vQueryStoreExpensiveQueriesLatest.view.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vQueryStoreExpensiveQueriesLatest.view.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\006_DBA_Monitoring_CollectBasicStats.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\006_DBA_Monitoring_CollectBasicStats.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\001_DBA_Monitoring_GetBackupStatus.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\001_DBA_Monitoring_GetBackupStatus.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_21.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBA.Monitoring.Database\\bin\\Debug\\DBA_21.Monitoring.Database.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{7AC5B3FA-F5B4-4282-8CAE-0A39E6B54EB2}|DBA.Monitoring.Database\\DBA.Monitoring.Database.sqlproj|solutionrelative:DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -226,7 +198,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -234,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DBA_21.Monitoring.Database.publish.sql ",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_21.Monitoring.Database.publish.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_21.Monitoring.Database.publish.sql",
@@ -245,31 +217,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql ",
-              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
-              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
-              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
-              "RelativeToolTip": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
+              "DocumentIndex": 6,
+              "Title": "DBA_20.Monitoring.Database.publish.sql",
+              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql",
+              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql",
+              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql",
+              "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-21T12:50:24.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T12:31:20.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DBA_20.Monitoring.Database.publish.sql ",
-              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql",
-              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_20.Monitoring.Database.publish.sql",
-              "ToolTip": "DBA_20.Monitoring.Database.publish.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-21T12:31:20.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "006_DBA_Monitoring_CollectBasicStats.sql ",
+              "Title": "006_DBA_Monitoring_CollectBasicStats.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\006_DBA_Monitoring_CollectBasicStats.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\006_DBA_Monitoring_CollectBasicStats.sql",
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\006_DBA_Monitoring_CollectBasicStats.sql",
@@ -280,8 +240,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "001_DBA_Monitoring_GetBackupStatus.sql ",
+              "DocumentIndex": 3,
+              "Title": "001_DBA_Monitoring_GetBackupStatus.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\001_DBA_Monitoring_GetBackupStatus.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\001_DBA_Monitoring_GetBackupStatus.sql",
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\001_DBA_Monitoring_GetBackupStatus.sql",
@@ -292,8 +252,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SQLAgentJobs.sql ",
+              "DocumentIndex": 2,
+              "Title": "SQLAgentJobs.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs.sql",
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs.sql",
@@ -304,31 +264,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "vQueryStoreExpensiveQueriesLatest.view.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vQueryStoreExpensiveQueriesLatest.view.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vQueryStoreExpensiveQueriesLatest.view.sql",
-              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vQueryStoreExpensiveQueriesLatest.view.sql",
-              "RelativeToolTip": "DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vQueryStoreExpensiveQueriesLatest.view.sql",
+              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vQueryStoreExpensiveQueriesLatest.view.sql\r\n(localdb)\\ProjectModels.DBA.Monitoring.Database\r\n(AzureAD\\GeorgiPetrov)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-07-21T12:29:11.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBA_19.Monitoring.Database.publish.sql ",
-              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql",
-              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql",
-              "ToolTip": "DBA_19.Monitoring.Database.publish.sql ",
+              "DocumentIndex": 0,
+              "Title": "CleanupMonitoringHistory.proc.sql ",
+              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql",
+              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql",
+              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql\r\n(localdb)\\ProjectModels.DBA.Monitoring.Database\r\n(AzureAD\\GeorgiPetrov)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-21T12:05:36.46Z",
+              "WhenOpened": "2026-07-09T10:19:35.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
+              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
+              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
+              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
+              "RelativeToolTip": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\008_DBA_Monitoring_CollectQueryStoreExpensiveQueries.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-21T12:50:24.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Script.PostDeployment.sql ",
+              "Title": "DBA_19.Monitoring.Database.publish.sql",
+              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql",
+              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql",
+              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql",
+              "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_19.Monitoring.Database.publish.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-21T12:05:36.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Script.PostDeployment.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\Script.PostDeployment.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\Script.PostDeployment.sql",
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\Script.PostDeployment.sql",
@@ -339,19 +321,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DBA_18.Monitoring.Database.publish.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_18.Monitoring.Database.publish.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_18.Monitoring.Database.publish.sql",
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_18.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_18.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-15T15:08:59.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-15T15:08:59.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "001_vCurrentActivity.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\Permissions\\001_vCurrentActivity.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\Permissions\\001_vCurrentActivity.sql",
@@ -363,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "vCurrentActivity.view.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vCurrentActivity.view.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vCurrentActivity.view.sql",
@@ -374,19 +355,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DBA_16.Monitoring.Database.publish.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_16.Monitoring.Database.publish.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_16.Monitoring.Database.publish.sql",
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_16.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_16.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-14T18:44:43.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-14T18:44:43.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "vCollectorStatus.view.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vCollectorStatus.view.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vCollectorStatus.view.sql",
@@ -397,19 +377,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DBA_12.Monitoring.Database.publish.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_12.Monitoring.Database.publish.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\bin\\Debug\\DBA_12.Monitoring.Database.publish.sql",
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_12.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_12.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-13T07:32:56.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T07:32:56.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "005_DBA_Monitoring_CleanupHistory.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\005_DBA_Monitoring_CleanupHistory.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Scripts\\Post-Deployment\\SQLAgentJobs\\005_DBA_Monitoring_CleanupHistory.sql",
@@ -421,17 +400,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CleanupMonitoringHistory.proc.sql",
-              "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql",
-              "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql",
-              "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Programmability\\Stored Procedures\\CleanupMonitoringHistory.proc.sql\r\n(localdb)\\ProjectModels.DBA.Monitoring.Database\r\n(AzureAD\\GeorgiPetrov)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-09T10:19:35.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
               "Title": "DBA_7.Monitoring.Database.publish.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_7.Monitoring.Database.publish.sql",
@@ -439,8 +407,7 @@
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_7.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_7.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-09T09:53:43.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T09:53:43.863Z"
             },
             {
               "$type": "Document",
@@ -455,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "vMonitorProcStatsLatest.view.sql",
               "DocumentMoniker": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vMonitorProcStatsLatest.view.sql",
               "RelativeDocumentMoniker": "DBA.Monitoring.Database\\Schema Objects\\Schemas\\dbo\\Views\\vMonitorProcStatsLatest.view.sql",
@@ -528,8 +495,7 @@
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_6.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_6.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-09T09:37:44.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T09:37:44.055Z"
             },
             {
               "$type": "Document",
@@ -576,8 +542,7 @@
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_5.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_5.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-09T09:22:01.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T09:22:01.297Z"
             },
             {
               "$type": "Document",
@@ -599,8 +564,7 @@
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_4.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_4.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-09T09:10:23.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T09:10:23.653Z"
             },
             {
               "$type": "Document",
@@ -689,8 +653,7 @@
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_3.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_3.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-09T08:22:17.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T08:22:17.283Z"
             },
             {
               "$type": "Document",
@@ -701,8 +664,7 @@
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA_2.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA_2.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-09T08:12:09.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T08:12:09.597Z"
             },
             {
               "$type": "Document",
@@ -747,8 +709,7 @@
               "ToolTip": "C:\\WorkRelated\\workspace\\git\\sql\\dba\\DBA.Monitoring\\DBA.Monitoring.Database\\bin\\Debug\\DBA.Monitoring.Database.publish.sql",
               "RelativeToolTip": "DBA.Monitoring.Database\\bin\\Debug\\DBA.Monitoring.Database.publish.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-08T13:03:40.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T13:03:40.145Z"
             }
           ]
         }
